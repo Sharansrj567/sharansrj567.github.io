@@ -194,12 +194,12 @@ function About() {
         <img
           className="w-full rounded"
           src="./images/logos/bitmoji.png"
-          alt="Sharan Jamnani Logo"
+          alt="Sharan Jamanani Logo"
         />
       </div>
       <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
         <div>
-          My name is <span className="font-bold">Sharan Jamnani</span> ,
+          My name is <span className="font-bold">Sharan Jamanani</span> ,
         </div>
         <div className="font-normal ml-1">
           I'm a{" "}
@@ -212,25 +212,23 @@ function About() {
       </div>
       <ul className=" leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
         <li className=" list-pc">
-          I pursued my B.E. in Computer Science from{" "}
-          <a href="https://www.git.edu/" rel="noreferrer" target="_blank">
-            KLS GIT, Belgaum
+          I am pursuing my Masters of Computer Science from{" "}
+          <a href="https://www.ncsu.edu/" rel="noreferrer" target="_blank">
+            North Carolina State University, NC, USA
           </a>
           .
         </li>
         <li className=" mt-3 list-building">
           {" "}
-          I enjoy building awesome softwares that solve practical problems.
+          From my early days as the go-to person for technical glitches among my peers to my current role as a software developer, my journey has been one of constant growth and innovation. With a strong foundation in diverse technologies and an unwavering passion for problem-solving, I am committed to creating solutions that make a real impact.
         </li>
         <li className=" mt-3 list-time">
           {" "}
-          When I am not coding my next project, I like to spend my playing table
-          tennis, playing valorant,watching movies or some productive courses{" "}
+          My journey spans from leading a team of professionals in delivering tailored software solutions for specialized healthcare departments to streamlining integration with telephony platforms, resulting in remarkable improvements in patient care and operational efficiency. I take pride in fostering collaboration and skill development within teams, contributing to the creation of secure solutions aligned with stringent international standards.
         </li>
         <li className=" mt-3 list-star">
           {" "}
-          And I also have interest in Deep Learning and machine learning,
-          blockchain web3 and App Development!
+          My expertise extends across a range of tools, frameworks, and databases, allowing me to architect and develop applications that address complex challenges. From crafting a robust mobile application with seamless data synchronization to spearheading dynamic projects recognized at state-level exhibitions, I'm driven by a commitment to innovation and excellence.
         </li>
       </ul>
     </>
@@ -247,9 +245,18 @@ function Education() {
         </div>
       </div>
       <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
+      <li className="list-disc">
+          <div className=" text-lg md:text-xl text-left font-bold leading-tight">
+            North Carolina State University, NC, USA
+          </div>
+          <div className=" text-sm text-gray-400 mt-0.5">2023 - 2025</div>
+          <div className=" text-sm md:text-base">
+            Masters of Computer Science
+          </div>
+        </li>
         <li className="list-disc">
           <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-            KLS GOGTE INSTITUTE OF TECHNOLOGY- Belgaum
+            KLS Gogte Institute Of Technology- Belgaum, India
           </div>
           <div className=" text-sm text-gray-400 mt-0.5">2018 - 2022</div>
           <div className=" text-sm md:text-base">
@@ -261,23 +268,23 @@ function Education() {
         </li>
         <li className="list-disc mt-5">
           <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-            Class 12<sup>th</sup> KLE Independent Pu College
+            Class 12<sup>th</sup> KLE Independent Pu College, Belgaum, India
           </div>
           <div className=" text-sm text-gray-400 mt-0.5">2016 - 2018</div>
           <div className=" text-sm md:text-base">
             Maths, Physics, Chemistry, CS
           </div>
           <div className="text-sm text-gray-300 font-bold mt-1">
-            Percentile Rank &nbsp; 94%
+            Percentage &nbsp; 94%
           </div>
         </li>
         <li className="list-disc mt-5">
           <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-            5-10<sup>th</sup> Dnyan Prabodhan Mandir
+            Class 10<sup>th</sup> Dnyan Prabodhan Mandir, Belgaum, India
           </div>
           <div className=" text-sm text-gray-400 mt-0.5">2011 - 2016</div>
           <div className="text-sm text-gray-300 font-bold mt-1">
-            Percentile Rank &nbsp; 92.2%
+            Percentage &nbsp; 92.2% Rank &nbsp; 3rd 
           </div>
         </li>
       </ul>
@@ -303,13 +310,13 @@ function Skills() {
             {" "}
             My areas of expertise are{" "}
             <strong className="text-ubt-gedit-orange">
-              Full-stack development, React.js,Next.js, Node.js(Express),
-              MongoDB!
+              Full-stack development, Typescript, React, Node.js(Express),
+              MongoDB, PostgreSQL, Python!
             </strong>
           </div>
         </li>
         <li className=" list-arrow text-md md:text-base mt-4 leading-tight tracking-tight">
-          <div>Here are my most frequently used</div>
+          <div>Here are some of my frequently used</div>
         </li>
       </ul>
       <div className="w-full md:w-10/12 flex mt-4">
@@ -323,6 +330,26 @@ function Skills() {
       <div className="w-full md:w-10/12 flex justify-center items-start font-bold text-center">
         <div className="px-2 w-1/2">
           <div className="flex flex-wrap justify-center items-start w-full mt-2">
+          <img
+              className="m-1"
+              src="https://img.shields.io/badge/-TypeScript-blue?style=flat&logo=typeScript&logoColor=000000"
+              alt="sharan typescript"
+            />
+                      <img
+              className="m-1"
+              src="https://img.shields.io/badge/-Docker-green?style=flat&logo=docker&logoColor=000000"
+              alt="sharan docker"
+            />
+            <img
+              className="m-1"
+              src="https://img.shields.io/badge/JWT-grey?style=flat&logo=JSON%20web%20tokens&logoColor=000000"
+              alt="sharan jwt"
+            />            
+            <img
+              className="m-1"
+              src="https://img.shields.io/badge/Socket.IO-red?style=flat&logo=socket.io&logoColor=000000"
+              alt="sharan socketio"
+            />
             <img
               className="m-1"
               src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A"
@@ -409,6 +436,15 @@ function Skills() {
 function Projects() {
   const project_list = [
     {
+      name: "ORCS Desktop Application",
+      description: [
+        "A dynamic toolkit that empowers users with real-time system monitoring and advanced capabilities including app banning and role-based access, driving 30% enhancement in resource control efficiency.",
+        "Enhanced with seamless socket integration, the application is highly adaptable, catering to a wide range of users, from educational institutions to corporate enterprises.",
+      ],
+      domains: ["React", "Nodejs(Express)", "Docker", "Github Actions", "Tauri", "Electron", "Socket.IO", "MongoDB."
+      ],
+    },
+    {
       name: "Websites",
       description: [
         "More than 50 static websites most of them for Knowledge Publishing Group(Canada), M16labs, DigitalClinic",
@@ -436,36 +472,36 @@ function Projects() {
         " ICamps(App to collect and assess cancer patients)",
         " Call 4 Swasth (Online-Offline Camp-Screening app which extends the web MetahOS platform)",
       ],
-      domains: ["flutter", "firestore", "dart", "firebase auth"],
+      domains: ["React-Native","Flutter", "Nodejs","firestore", "dart", "firebase auth"],
     },
     {
       name: "Web Automation Apps",
       description: [
-        "Scripts for automating daily tasks like event registration",
+        "Scripts for automating daily tasks like event registration, web scraping, auto applying",
       ],
       domains: ["Python", "Selenium", "Django"],
     },
   ];
 
   const tag_colors = {
-    javascript: "yellow-300",
-    HTML5: "pink-600",
-    CSS: "pink-400",
-    Bootstrap: "yellow-600",
-    Javascript: "green-600",
-    MongoDB: "green-200",
-    React: "blue-500",
-    firebase: "red-600",
-    firestore: "red-500",
-    "chrome-extension": "yellow-400",
-    flutter: "blue-400",
-    dart: "blue-500",
-    "react-native": "purple-500",
-    html5: "pink-600",
-    sass: "pink-400",
-    tensorflow: "yellow-600",
-    django: "green-600",
-    python: "green-200",
+    // javascript: "yellow-300",
+    // HTML5: "pink-600",
+    // CSS: "pink-400",
+    // Bootstrap: "yellow-600",
+    // Javascript: "green-600",
+    // MongoDB: "green-200",
+    // React: "blue-500",
+    // firebase: "red-600",
+    // firestore: "red-500",
+    // "chrome-extension": "yellow-400",
+    // flutter: "blue-400",
+    // dart: "blue-500",
+    // "react-native": "purple-500",
+    // html5: "pink-600",
+    // sass: "pink-400",
+    // tensorflow: "yellow-600",
+    // django: "green-600",
+    // python: "green-200",
   };
 
   return (
@@ -489,7 +525,7 @@ function Projects() {
             <div className="w-full py-1 px-2 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 cursor-pointer">
               <div className="flex flex-wrap justify-between items-center">
                 <div className=" text-base md:text-lg">
-                  {project.name.toLowerCase()}
+                  {project.name}
                 </div>
                 <div className="text-gray-300 font-light text-sm">
                   {project.date}
@@ -532,7 +568,7 @@ function Resume() {
     <iframe
       className="h-full w-full"
       src="./files/Sharan-Resume.pdf"
-      title="sharan jamnani resume"
+      title="Sharan Jamanani resume"
       frameBorder="0"
     ></iframe>
   );
