@@ -549,7 +549,7 @@ export class Desktop extends Component {
               >
                 {apps.map((item, index) => (
                   <Dock.Item key={index} onClick={() => this.openApp(item.id)}>
-                    <img src={item.icon} />
+                    <img alt="dock icon" src={item.icon} />
                   </Dock.Item>
                 ))}
               </Dock>
