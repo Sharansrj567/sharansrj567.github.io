@@ -441,9 +441,32 @@ function Projects() {
         "A dynamic toolkit that empowers users with real-time system monitoring and advanced capabilities including app banning and role-based access, driving 30% enhancement in resource control efficiency.",
         "Enhanced with seamless socket integration, the application is highly adaptable, catering to a wide range of users, from educational institutions to corporate enterprises.",
       ],
-      domains: ["React", "Nodejs(Express)", "Docker", "Github Actions", "Tauri", "Electron", "Socket.IO", "MongoDB."
-      ],
+      domains: ["React", "Node.js (Express)", "Docker", "GitHub Actions", "Tauri", "Electron", "Socket.IO", "MongoDB"],
     },
+    {
+      name: "OSGeo Grass GIS",
+      description: [
+        "Actively contributed to and optimized geospatial solutions, ensuring peak performance and impactful contributions.",
+        "Collaborated with the community to enhance efficiency and robustness, ensuring seamless geospatial functionality.",
+      ],
+      domains: ["C", "C++", "Python", "PostgreSQL", "Linux"],
+    },
+    {
+      name: "Infogram Serverless Application Backend",
+      description: [
+        "Developed a scalable serverless application tracking system ensuring privacy and security within a Zero Trust framework.",
+        "Implemented programming interfaces with unparalleled flexibility and agility in adapting to fluctuating workloads.",
+      ],
+      domains: ["AWS Serverless","AWS Lambda", "API Gateway", "DynamoDB", "S3", "Asymmetrically encrypted (RS256) JWT Tokens", "Zero Trust Auth0", "TypeScript"],
+    },
+    {
+      name: "Vision Bank Scalable Microservices Backend",
+      description: [
+        "Engineered a scalable and secure banking backend in Golang, leveraging its efficiency and performance advantages.",
+        "Driven by the growing popularity of Large Language Models (LLMs) and the imperative for a modernized backend architecture.",
+      ],
+      domains: ["GoLang", "PostgreSQL", "Docker", "Gin", "Viper", "JWT", "SMTP", "Swaggerhub", "GitHub Actions", "PGX"],
+    }, 
     {
       name: "Websites",
       description: [
