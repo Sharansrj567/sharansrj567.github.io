@@ -436,37 +436,50 @@ function Skills() {
 function Projects() {
   const project_list = [
     {
-      name: "ORCS Desktop Application",
-      description: [
-        "A dynamic toolkit that empowers users with real-time system monitoring and advanced capabilities including app banning and role-based access, driving 30% enhancement in resource control efficiency.",
-        "Enhanced with seamless socket integration, the application is highly adaptable, catering to a wide range of users, from educational institutions to corporate enterprises.",
+      "name": "OSGeo Grass GIS",
+      "description": [
+        "Actively optimizing geospatial solutions through innovation for performance & impactful contributions.",
+        "Collaborated with the community to enhance efficiency and robustness, ensuring seamless geospatial functionality."
       ],
-      domains: ["React", "Node.js (Express)", "Docker", "GitHub Actions", "Tauri", "Electron", "Socket.IO", "MongoDB"],
+      "domains": ["C", "C++", "Python", "GIS", "NumPy", "PostgreSQL", "Linux"],
+      "link": "https://github.com/OSGeo/grass/pull/3356"
     },
     {
-      name: "OSGeo Grass GIS",
-      description: [
-        "Actively contributed to and optimized geospatial solutions, ensuring peak performance and impactful contributions.",
-        "Collaborated with the community to enhance efficiency and robustness, ensuring seamless geospatial functionality.",
+      "name": "Infogram - Serverless Application Backend",
+      "description": [
+        "Deployed asymmetrically encrypted JWT tokens through Auth0 to enhance authentication security.",
+        "Architected dynamic AWS Lambda functions, orchestrated by Terraform, to adeptly handle variable workloads."
       ],
-      domains: ["C", "C++", "Python", "PostgreSQL", "Linux"],
+      "domains": ["AWS Lambda", "API Gateway", "DynamoDB", "S3", "RS256 JWT Tokens", "Auth0", "Typescript"],
+      "link": "https://github.com/Sharansrj567/Infogram"
     },
     {
-      name: "Infogram Serverless Application Backend",
-      description: [
-        "Developed a scalable serverless application tracking system ensuring privacy and security within a Zero Trust framework.",
-        "Implemented programming interfaces with unparalleled flexibility and agility in adapting to fluctuating workloads.",
+      "name": "Vision Bank - Scalable Microservices Backend",
+      "description": [
+        "Developed a Postgres database schema and Golang CRUD operations for efficient data handling.",
+        "Implemented a secure RESTful API with PASETO/JWT auth and GitHub Actions CI/CD."
       ],
-      domains: ["AWS Serverless","AWS Lambda", "API Gateway", "DynamoDB", "S3", "Asymmetrically encrypted (RS256) JWT Tokens", "Zero Trust Auth0", "TypeScript"],
+      "domains": ["GoLang", "PostgreSQL", "Docker", "Gin", "Viper", "JWT", "SMTP", "Swaggerhub", "GitHub actions", "PGX"],
+      "link": "https://github.com/Sharansrj567/vision-bank"
     },
     {
-      name: "Vision Bank Scalable Microservices Backend",
-      description: [
-        "Engineered a scalable and secure banking backend in Golang, leveraging its efficiency and performance advantages.",
-        "Driven by the growing popularity of Large Language Models (LLMs) and the imperative for a modernized backend architecture.",
+      "name": "BYOD - Enhanced Movie Recommender - Data Analytics Model",
+      "description": [
+        "Elevated content personalization by fine-tuning KNN and SVD models, ensuring more relevant recommendations."
       ],
-      domains: ["GoLang", "PostgreSQL", "Docker", "Gin", "Viper", "JWT", "SMTP", "Swaggerhub", "GitHub Actions", "PGX"],
-    }, 
+      "domains": ["Python", "scikit-learn", "TensorFlow", "NumPy", "Pandas", "Matplotlib", "SVD", "KNN"],
+      "link": "https://github.com/Sharansrj567/byod-movie-recommender"
+    },
+    {
+      "name": "ORCS: Open Resource Control and Surveillance Toolkit - Desktop Application",
+      "description": [
+        "Designed a microservices architecture for real-time system monitoring and app banning via socket integration.",
+        "Developed an auto-startup service for client systems, enhancing the toolkit's usability and reliability for end-users.",
+        "Defined IAM policies for secure access control, ensuring system integrity and data protection."
+      ],
+      "domains": ["React", "Nodejs(Express)", "Rust", "Kubernetes", "Docker", "Tauri", "Electron", "Socket.IO", "MongoDB"],
+      "link": "https://github.com/Sharansrj567/orcs-toolkit"
+    },
     {
       name: "Websites",
       description: [
@@ -548,10 +561,7 @@ function Projects() {
             <div className="w-full py-1 px-2 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 cursor-pointer">
               <div className="flex flex-wrap justify-between items-center">
                 <div className=" text-base md:text-lg">
-                  {project.name}
-                </div>
-                <div className="text-gray-300 font-light text-sm">
-                  {project.date}
+                  {project.name} {project.link?.length!==0?project.link:null}
                 </div>
               </div>
               <ul className=" tracking-normal leading-tight text-sm font-light ml-4 mt-1">

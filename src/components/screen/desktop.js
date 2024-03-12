@@ -35,7 +35,7 @@ export class Desktop extends Component {
   componentDidMount() {
     // google analytics
     ReactGA.pageview("/desktop");
-
+    this.openApp('about-sharan');
     this.fetchAppsData();
     this.setContextListeners();
     this.setEventListeners();
