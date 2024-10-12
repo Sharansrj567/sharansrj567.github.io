@@ -12,7 +12,7 @@ export class Gedit extends Component {
   }
 
   componentDidMount() {
-    emailjs.init(process.env.REACT_APP_USER_ID);
+    emailjs.init({publicKey:process.env.REACT_APP_USER_ID});
   }
 
   sendMessage = async () => {
