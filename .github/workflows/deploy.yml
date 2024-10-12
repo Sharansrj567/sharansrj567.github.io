@@ -19,13 +19,22 @@ jobs:
       
       - name: Install dependencies
         run: npm install
-      
+
+      - name: Set environment variables from secrets
+        env:
+          REACT_APP_USER_ID: ${{ secrets.REACT_APP_USER_ID }}
+          REACT_APP_TEMPLATE_ID: ${{ secrets.REACT_APP_TEMPLATE_ID }}
+          REACT_APP_SERVICE_ID: ${{ secrets.REACT_APP_SERVICE_ID }}
+        run: |
+          echo "REACT_APP_USER_ID=$REACT_APP_USER_ID" >> $GITHUB_ENV
+          echo "REACT_APP_TEMPLATE_ID=$REACT_APP_TEMPLATE_ID" >> $GITHUB_ENV
+          echo "REACT_APP_SERVICE_ID=$REACT_APP_SERVICE_ID" >> $GITHUB_ENV
       - name: Build
         run: npm run build
       
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.2.0
         with:
-          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: build
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          folder: build
