@@ -43,7 +43,9 @@ export class Gedit extends Component {
 
     const serviceID = process.env.REACT_APP_SERVICE_ID;
     const templateID = process.env.REACT_APP_TEMPLATE_ID;
+    const userID = process.env.REACT_APP_USER_ID;
     console.log("Got service id and template id", true ? serviceID!==undefined && templateID!==undefined : false);
+    console.log("Got user id", true ? userID!==undefined : false);
     const templateParams = {
       name: name,
       subject: subject,
